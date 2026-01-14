@@ -3,15 +3,15 @@
 	"id": "simplemagic",
 	"version": "${version}",
 	"name": "Simple Magic",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Simple Magic mod by LogeryX, featuring powerful magic items.",
 	"authors": [
-		"Me!"
+		"LogeryX"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://moisty.cz/",
+		"sources": "https://github.com/logeryx/simplemagic"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/simplemagic/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -20,6 +20,9 @@
 		],
 		"fabric-datagen": [
 			"net.logeryx.simplemagic.SimpleMagicDataGenerator"
+		],
+		"client": [
+			"net.logeryx.simplemagic.SimpleMagicClient"
 		]
 	},
 	"mixins": [
