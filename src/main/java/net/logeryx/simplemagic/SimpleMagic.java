@@ -2,6 +2,7 @@ package net.logeryx.simplemagic;
 
 import net.fabricmc.api.ModInitializer;
 import net.logeryx.simplemagic.item.ModItems;
+import net.logeryx.simplemagic.loot.ModLootTableModifiers;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -13,5 +14,6 @@ public class SimpleMagic implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModLootTableModifiers.modifyLootTables();
 	}
 }
