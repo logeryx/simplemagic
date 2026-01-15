@@ -20,7 +20,7 @@ public class ModLootTableModifiers {
 
             // Evokers drop Fang's Spirit
             if (EntityType.EVOKER.getLootTableKey().map(k -> k.equals(key)).orElse(false)) {
-                addToLootTable(tableBuilder, ModItems.FANGS_SPIRIT, registries,1.0f, 6.0f, 1.0f);
+                addToLootTable(tableBuilder, ModItems.FANGS_SPIRIT, registries,1.0f, 8.0f, 2.0f);
             }
         });
     }
